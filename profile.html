@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eadaaceb28.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo" alt="">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <!-- .....settings menu.... -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Saurabh Saxena</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ------- profile page ------ -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image">
+                    <div>
+                        <h3>Saurabh Saxena</h3>
+                        <p>150 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png"> Friend</button>
+                <button type="button"><img src="images/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Hello, I am Saurabh Saxena. Let's Connect!!! <img src="images/feeling.png">
+                    </p>
+                    <hr>
+
+                    <ul>
+                        <li><img src="images/profile-job.png"> Director at 99media ltd</li>
+                        <li><img src="images/profile-study.png"> Studied at Galgotias University</li>
+                        <li><img src="images/profile-study.png">Went to MS Public School</li>
+                        <li><img src="images/profile-home.png" alt=""> Lives in Greater Noida</li>
+                        <li><img src="images/profile-location.png" alt="">From Moradabad, India</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+
+                    </div>
+
+                    <div class="photos-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png">
+                            <p>Mansi</p>
+                        </div>
+                        <div><img src="images/member-2.png">
+                            <p>Vedant</p>
+                        </div>
+                        <div><img src="images/member-3.png">
+                            <p>Paradhi</p>
+                        </div>
+                        <div><img src="images/member-4.png">
+                            <p>Kush</p>
+                        </div>
+                        <div><img src="images/member-5.png">
+                            <p>Ankit</p>
+                        </div>
+                        <div><img src="images/member-6.png">
+                            <p>Riya</p>
+                        </div>
+                        <div><img src="images/member-7.png">
+                            <p>Mridul</p>
+                        </div>
+                        <div><img src="images/member-8.png">
+                            <p>Pragati</p>
+                        </div>
+                        <div><img src="images/member-9.png">
+                            <p>Manali</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Saurabh Saxena</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Saurabh?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png">Live Video</a>
+                            <a href="#"><img src="images/photo.png">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Saurabh Saxena</p>
+                                <span>June 24 2023, 18:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Subscribe <span>@Saxena Gaming</span> Youtube Channel <a
+                            href="#">#SaxenaGaming</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">50</div>
+                            <div><img src="images/share.png">10</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Lord Vedant</p>
+                                <span>June 23 2023, 23:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Like and Share this Video with friends. <span>@vedant gupta</span> Youtube
+                        Channel
+                        <a href="#">#lordvedant</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png">80</div>
+                            <div><img src="images/comments.png">10</div>
+                            <div><img src="images/share.png">15</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Kush Superstar</p>
+                                <span>June 22 2023, 10:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Jhuk ke rhna padega mere aage<span>@lordkush</span> Youtube Channel <a
+                            href="#">#lordvedant</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png">8000</div>
+                            <div><img src="images/comments.png">1000</div>
+                            <div><img src="images/share.png">1500</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Kush Superstar</p>
+                                <span>June 22 2023, 10:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Jhuk ke rhna padega mere aage<span>@lordkush</span> Youtube Channel <a
+                            href="#">#lordvedant</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png">8000</div>
+                            <div><img src="images/comments.png">1000</div>
+                            <div><img src="images/share.png">1500</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Kush Superstar</p>
+                                <span>June 22 2023, 10:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">Jhuk ke rhna padega mere aage<span>@lordkush</span> Youtube Channel <a
+                            href="#">#lordvedant</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png">8000</div>
+                            <div><img src="images/comments.png">1000</div>
+                            <div><img src="images/share.png">1500</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2023 - Saxena Gaming Yotube Channel</p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/eadaaceb28.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
